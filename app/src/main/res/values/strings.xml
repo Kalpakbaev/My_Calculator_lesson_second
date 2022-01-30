@@ -28,5 +28,6 @@
 
 
     <string name="backspace">  </string>
+    <string name="todo">TODO</string>
 
 </resources>
