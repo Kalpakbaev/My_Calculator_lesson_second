@@ -20,13 +20,11 @@
 
             <Button
                 android:id="@+id/clear"
-                style="@style/Widget.AppCompat.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="7dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:backgroundTint="#A3492D"
+                android:backgroundTint="#6C5249"
                 android:text="@string/clear"
                 android:textSize="24sp" />
 
@@ -270,44 +268,43 @@
 
             <Button
                 android:id="@+id/equals"
-                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="7dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:backgroundTint="#50AA54"
+                android:backgroundTint="#851A12"
                 android:text="@string/equals"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/black"
                 android:textSize="24sp" />
         </TableRow>
     </TableLayout>
 
-    <TextView
+    <EditText
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:autofillHints="false"
+        android:inputType="none"
         android:text="@string/TextView"
-        android:textSize="20sp"
+        android:textAlignment="textEnd"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
     <ImageButton
-        android:id="@+id/button25"
+        android:id="@+id/imageButton"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="7dp"
         android:background="@drawable/circle"
-        android:contentDescription="@string/backspace"
-        android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/backspace" />
+        app:srcCompat="@android:drawable/btn_dialog" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

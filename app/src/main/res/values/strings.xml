@@ -12,8 +12,6 @@
     <string name="nine">9</string>
 
 
-
-
     <string name="clear">C</string>
     <string name="exponent">^</string>
     <string name="parentheses">(  )</string>
@@ -27,7 +25,7 @@
     <string name="TextView">Enter in a Value</string>
 
 
-    <string name="backspace">  </string>
+    <string name="backspace"> X </string>
     <string name="todo">TODO</string>
 
 </resources>
