@@ -299,15 +299,15 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
         android:layout_margin="7dp"
-        android:text="@string/backspace"
+        android:layout_marginEnd="1dp"
         android:background="@drawable/circle"
-        app:srcCompat="@drawable/backspace"
+        android:contentDescription="@string/backspace"
+        android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/backspace" />
+        app:srcCompat="@drawable/backspace" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
