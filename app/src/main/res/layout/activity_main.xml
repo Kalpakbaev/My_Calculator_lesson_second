@@ -26,7 +26,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#6C5249"
                 android:text="@string/clear"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/parentheses"
@@ -275,7 +276,8 @@
                 android:backgroundTint="#851A12"
                 android:text="@string/equals"
                 android:textColor="@color/black"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                style="?android:attr/buttonBarButtonStyle" />
         </TableRow>
     </TableLayout>
 
@@ -294,17 +296,5 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
-        android:background="@drawable/circle"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.98"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/btn_dialog" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
