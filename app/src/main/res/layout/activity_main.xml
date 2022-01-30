@@ -18,28 +18,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/clear" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/parentheses"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/parentheses" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/exponent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/exponent" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/divide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -51,28 +51,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/seven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/seven" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/eight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/eight" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/nine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/nine" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/multiplay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -85,28 +85,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/four" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/five" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/six" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/subtract"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -118,28 +118,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/one" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/two" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/three" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -152,28 +152,28 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/PlusMinus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/PlusMinus" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/zero" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/point"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/point" />
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/equals"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
