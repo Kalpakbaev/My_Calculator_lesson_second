@@ -24,6 +24,7 @@
     <string name="PlusMinus">+/-</string>
     <string name="equals">=</string>
     <string name="point">.</string>
+    <string name="TextView">Enter in a Value</string>
 
 
     <string name="backspace">  </string>
