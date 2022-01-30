@@ -10,7 +10,7 @@
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
-    <string name="eight">8</string>
+
 
 
 
@@ -20,6 +20,7 @@
     <string name="divide">÷</string>
     <string name="multiply">*</string>
     <string name="subtract">-</string>
+    <string name="add">+</string>
     <string name="PlusMinus">+/-</string>
     <string name="equals">=</string>
     <string name="point">.</string>
