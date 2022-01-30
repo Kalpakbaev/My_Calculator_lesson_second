@@ -19,39 +19,39 @@
 
             <Button
                 android:id="@+id/clear"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_weight="1"
-                android:textColor="@color/black"
-                android:text="@string/clear" />
+                android:text="@string/clear"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/parentheses"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/parentheses" />
+                android:text="@string/parentheses"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/exponent"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/exponent" />
+                android:text="@string/exponent"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/divide"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/divide" />
+                android:text="@string/divide"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
@@ -60,39 +60,39 @@
 
             <Button
                 android:id="@+id/seven"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/seven" />
+                android:text="@string/seven"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/eight"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/eight" />
+                android:text="@string/eight"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/nine"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/nine" />
+                android:text="@string/nine"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/multiply"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/multiply" />
+                android:text="@string/multiply"
+                android:textColor="@color/black" />
 
         </TableRow>
 
@@ -102,39 +102,39 @@
 
             <Button
                 android:id="@+id/four"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/four" />
+                android:text="@string/four"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/five"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/five" />
+                android:text="@string/five"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/six"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/six" />
+                android:text="@string/six"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/subtract"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/subtract" />
+                android:text="@string/subtract"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
@@ -143,39 +143,39 @@
 
             <Button
                 android:id="@+id/one"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/one" />
+                android:text="@string/one"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/two"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/two" />
+                android:text="@string/two"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/three"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/three" />
+                android:text="@string/three"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/add"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/add" />
+                android:text="@string/add"
+                android:textColor="@color/black" />
 
         </TableRow>
 
@@ -185,39 +185,39 @@
 
             <Button
                 android:id="@+id/PlusMinus"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/PlusMinus" />
+                android:text="@string/PlusMinus"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/zero"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/zero" />
+                android:text="@string/zero"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/point"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/point" />
+                android:text="@string/point"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/equals"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
                 android:layout_weight="1"
-                android:text="@string/equals" />
+                android:text="@string/equals"
+                android:textColor="@color/black" />
         </TableRow>
     </TableLayout>
 
