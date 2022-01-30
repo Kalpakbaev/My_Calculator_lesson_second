@@ -21,13 +21,17 @@
                 android:id="@+id/clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_weight="1"
+                android:textColor="@color/black"
                 android:text="@string/clear" />
 
             <Button
                 android:id="@+id/parentheses"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/parentheses" />
 
@@ -35,6 +39,8 @@
                 android:id="@+id/exponent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/exponent" />
 
@@ -42,6 +48,8 @@
                 android:id="@+id/divide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/divide" />
         </TableRow>
@@ -54,6 +62,8 @@
                 android:id="@+id/seven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/seven" />
 
@@ -61,6 +71,8 @@
                 android:id="@+id/eight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/eight" />
 
@@ -68,6 +80,8 @@
                 android:id="@+id/nine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/nine" />
 
@@ -75,6 +89,8 @@
                 android:id="@+id/multiply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/multiply" />
 
@@ -88,6 +104,8 @@
                 android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/four" />
 
@@ -95,6 +113,8 @@
                 android:id="@+id/five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/five" />
 
@@ -102,6 +122,8 @@
                 android:id="@+id/six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/six" />
 
@@ -109,6 +131,8 @@
                 android:id="@+id/subtract"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/subtract" />
         </TableRow>
@@ -121,6 +145,8 @@
                 android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/one" />
 
@@ -128,6 +154,8 @@
                 android:id="@+id/two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/two" />
 
@@ -135,6 +163,8 @@
                 android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/three" />
 
@@ -142,6 +172,8 @@
                 android:id="@+id/add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/add" />
 
@@ -155,6 +187,8 @@
                 android:id="@+id/PlusMinus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/PlusMinus" />
 
@@ -162,6 +196,8 @@
                 android:id="@+id/zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/zero" />
 
@@ -169,6 +205,8 @@
                 android:id="@+id/point"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/point" />
 
@@ -176,6 +214,8 @@
                 android:id="@+id/equals"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/black"
                 android:layout_weight="1"
                 android:text="@string/equals" />
         </TableRow>
