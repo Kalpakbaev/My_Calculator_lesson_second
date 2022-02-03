@@ -20,14 +20,14 @@
 
             <Button
                 android:id="@+id/clear"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="7dp"
                 android:layout_weight="1"
                 android:backgroundTint="#6C5249"
                 android:text="@string/clear"
-                android:textSize="24sp"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/parentheses"
@@ -269,6 +269,7 @@
 
             <Button
                 android:id="@+id/equals"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="7dp"
@@ -276,8 +277,18 @@
                 android:backgroundTint="#851A12"
                 android:text="@string/equals"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                style="?android:attr/buttonBarButtonStyle" />
+                android:textSize="24sp" />
+            <Button
+                android:id="@+id/delete"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:backgroundTint="#851A12"
+                android:text="@string/delete"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
         </TableRow>
     </TableLayout>
 

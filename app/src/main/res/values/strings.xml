@@ -22,9 +22,9 @@
     <string name="PlusMinus" translatable="false">+/-</string>
     <string name="equals" translatable="false">=</string>
     <string name="point" translatable="false">.</string>
-    <string name="TextView" translatable="false">Enter in a Value</string>
+    <string name="TextView" translatable="false"> </string>
 
 
-    <string name="backspace" translatable="false"> X </string>
+    <string name="delete" translatable="false"> X </string>
 
 </resources>
