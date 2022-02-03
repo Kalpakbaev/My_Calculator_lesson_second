@@ -123,11 +123,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 input = "";
                 break;
             }
+
+            case R.id.multiply:{
+                two = first;
+                first = Double.parseDouble(input);
+                operation = 3;
+                input = "";
+                break;
+            }
+
             case R.id.equals: {
                 two = first;
                 first = Double.parseDouble(input);
                 result();
-
             }
             break;
         }
@@ -139,8 +147,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 et.setText(String.format("%.2f", two + first));
                 break;
             }
-            case 2:{
+            case 2: {
                 et.setText(String.format("%.2f", two - first));
+                break;
+            }
+            case 3:{
+                et.setText(String.format("%.2f", two * first));
                 break;
             }
         }
