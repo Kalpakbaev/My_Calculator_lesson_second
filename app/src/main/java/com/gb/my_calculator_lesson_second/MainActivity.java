@@ -138,6 +138,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 input = "";
                 break;
             }
+            case R.id.clear:{
+                et.setText("");
+                first = 0.0;
+                two = 0.0;
+                break;
+            }
 
             case R.id.equals: {
                 two = first;
