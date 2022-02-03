@@ -131,6 +131,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 input = "";
                 break;
             }
+            case R.id.divide:{
+                two = first;
+                first = Double.parseDouble(input);
+                operation = 4;
+                input = "";
+                break;
+            }
 
             case R.id.equals: {
                 two = first;
@@ -153,6 +160,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             case 3:{
                 et.setText(String.format("%.2f", two * first));
+                break;
+            }
+            case 4:{
+                et.setText(String.format("%.2f", two / first));
                 break;
             }
         }
