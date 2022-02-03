@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText et;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnDelete.setOnClickListener(this);
 
     }
+
     Double first = 0.0;
     Double two = 0.0;
     int operation = 0;
@@ -95,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn = (Button) view;
         et.setText((String.format("%s%s", et.getText().toString(), btn.getText().toString())));
 
-        switch (view.getId()){
+        switch (view.getId()) {
             case R.id.one:
             case R.id.two:
             case R.id.three:
@@ -106,18 +105,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.eight:
             case R.id.nine:
             case R.id.zero:
-            case R.id.point:{
+            case R.id.point: {
                 input += btn.getText().toString();
                 break;
             }
-            case R.id.add:{
+            case R.id.add: {
                 two = first;
                 first = Double.parseDouble(input);
                 operation = 1;
                 input = "";
                 break;
             }
-            case R.id.equals:{
+            case R.id.subtract: {
+                two = first;
+                first = Double.parseDouble(input);
+                operation = 2;
+                input = "";
+                break;
+            }
+            case R.id.equals: {
                 two = first;
                 first = Double.parseDouble(input);
                 result();
@@ -126,11 +132,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             break;
         }
     }
-    void result(){
-        switch (operation){
-            case 1:
-            et.setText(String.format("%.2f", two + first));
+
+    void result() {
+        switch (operation) {
+            case 1: {
+                et.setText(String.format("%.2f", two + first));
                 break;
+            }
+            case 2:{
+                et.setText(String.format("%.2f", two - first));
+                break;
+            }
         }
     }
 }
