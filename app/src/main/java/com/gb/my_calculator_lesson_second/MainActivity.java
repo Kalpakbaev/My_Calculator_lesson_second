@@ -8,6 +8,8 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.gb.my_calculator_lesson_second.R.id;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnClear;
     Button btnParentheses;
@@ -95,28 +97,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et.setText((String.format("%s%s", et.getText().toString(), btn.getText().toString())));
 
         switch (view.getId()) {
-            case R.id.one:
-            case R.id.two:
-            case R.id.three:
-            case R.id.four:
-            case R.id.five:
-            case R.id.six:
-            case R.id.seven:
-            case R.id.eight:
-            case R.id.nine:
-            case R.id.zero:
-            case R.id.point: {
+            case id.one:
+            case id.two:
+            case id.three:
+            case id.four:
+            case id.five:
+            case id.six:
+            case id.seven:
+            case id.eight:
+            case id.nine:
+            case id.zero:
+            case id.point:
                 input += btn.getText().toString();
                 break;
-            }
-            case R.id.add: {
+
+            case id.add: {
                 two = first;
                 first = Double.parseDouble(input);
                 operation = 1;
                 input = "";
                 break;
             }
-            case R.id.subtract: {
+            case id.subtract: {
                 two = first;
                 first = Double.parseDouble(input);
                 operation = 2;
@@ -124,33 +126,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
 
-            case R.id.multiply:{
+            case id.multiply: {
                 two = first;
                 first = Double.parseDouble(input);
                 operation = 3;
                 input = "";
                 break;
             }
-            case R.id.divide:{
+            case id.divide: {
                 two = first;
                 first = Double.parseDouble(input);
                 operation = 4;
                 input = "";
                 break;
             }
-            case R.id.clear:{
-                et.setText("");
-                first = 0.0;
-                two = 0.0;
-                break;
-            }
 
-            case R.id.equals: {
+
+            case id.equals: {
                 two = first;
                 first = Double.parseDouble(input);
                 result();
+                break;
             }
-            break;
+            case id.clear: {
+                two = 0.0;
+                first = 0.0;
+                et.setText("");
+
+                break;
+            }
+
         }
     }
 
@@ -164,14 +169,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 et.setText(String.format("%.2f", two - first));
                 break;
             }
-            case 3:{
+            case 3: {
                 et.setText(String.format("%.2f", two * first));
                 break;
             }
-            case 4:{
+            case 4: {
                 et.setText(String.format("%.2f", two / first));
                 break;
             }
+
         }
     }
 }

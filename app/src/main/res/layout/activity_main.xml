@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
     tools:context=".MainActivity">
 
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTintMode="src_over"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.88">
@@ -18,18 +21,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/clear"
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_margin="7dp"
                 android:layout_weight="1"
                 android:backgroundTint="#6C5249"
                 android:text="@string/clear"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/parentheses"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -39,9 +41,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/parentheses"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/exponent"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -51,9 +53,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/exponent"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/divide"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -63,14 +65,14 @@
                 android:background="@drawable/circle"
                 android:text="@string/divide"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -80,9 +82,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/seven"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/eight"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -92,9 +94,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/eight"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -104,9 +106,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/nine"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/multiply"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -116,7 +118,7 @@
                 android:background="@drawable/circle"
                 android:text="@string/multiply"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
         </TableRow>
 
@@ -124,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/four"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -134,9 +136,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/four"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/five"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -146,9 +148,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/five"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/six"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -158,7 +160,7 @@
                 android:background="@drawable/circle"
                 android:text="@string/six"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
             <Button
                 android:id="@+id/subtract"
@@ -170,14 +172,14 @@
                 android:background="@drawable/circle"
                 android:text="@string/subtract"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/one"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -187,9 +189,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/one"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/two"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -199,9 +201,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/two"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/three"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -211,9 +213,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/three"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/add"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -223,7 +225,7 @@
                 android:background="@drawable/circle"
                 android:text="@string/add"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
         </TableRow>
 
@@ -231,7 +233,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/PlusMinus"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -241,9 +243,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/PlusMinus"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/zero"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -253,9 +255,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/zero"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/point"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -265,9 +267,9 @@
                 android:background="@drawable/circle"
                 android:text="@string/point"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/equals"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
@@ -277,8 +279,9 @@
                 android:backgroundTint="#851A12"
                 android:text="@string/equals"
                 android:textColor="@color/black"
-                android:textSize="24sp" />
-            <Button
+                android:textSize="@dimen/strings" />
+
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/delete"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
@@ -288,9 +291,39 @@
                 android:backgroundTint="#851A12"
                 android:text="@string/delete"
                 android:textColor="@color/black"
-                android:textSize="24sp" />
+                android:textSize="@dimen/strings" />
         </TableRow>
     </TableLayout>
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButtonRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/red" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButtonBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blue" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButtonGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green" />
+    </RadioGroup>
 
     <EditText
         android:id="@+id/textView6"
@@ -301,11 +334,11 @@
         android:inputType="none"
         android:text="@string/TextView"
         android:textAlignment="textEnd"
-        android:textSize="36sp"
+        android:textSize="@dimen/textSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
