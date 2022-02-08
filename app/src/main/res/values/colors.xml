@@ -10,23 +10,26 @@
 
 
 
-
-    <color name="red-100">#EA3838</color>
-    <color name="red-200">#D33030</color>
-    <color name="red-300">#813B3B</color>
-    <color name="red-400">#E35E54</color>
-    <color name="red-500">#AE293D</color>
-    <color name="red-600">#C84949</color>
-    <color name="red-700">#D13939</color>
-    <color name="red-800">#710F0F</color>
-    <color name="red-900">#8A1616</color>
-
-
-    <color name="blue-100">#4E68F4</color>
+    <color name="red_100">#EA3838</color>
+    <color name="red_200">#D33030</color>
+    <color name="red_300">#813B3B</color>
+    <color name="red_400">#E35E54</color>
+    <color name="red_500">#AE293D</color>
+    <color name="red_600">#C84949</color>
+    <color name="red_700">#D13939</color>
+    <color name="red_800">#710F0F</color>
+    <color name="red_900">#8A1616</color>
 
 
-    <color name="green-100">#1F8C24 </color>
+    <color name="blue">#4E68F4</color>
 
-
+    <color name="green">#1F8C24 </color>
 
 </resources>
+
+
+
+
+
+
+

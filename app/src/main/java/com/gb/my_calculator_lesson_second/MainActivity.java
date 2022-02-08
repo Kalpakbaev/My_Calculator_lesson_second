@@ -34,11 +34,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnDelete;
     EditText et;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.myThemeGreen);
         setContentView(R.layout.activity_main);
+
+        findViewById(id.radioButtonMaterialStandard);
+        findViewById(R.id.radioButtonMaterialRed);
+        findViewById(R.id.radioButtonMaterialBlue);
+        findViewById(R.id.radioButtonMaterialGreen);
+
+
         btnClear = findViewById(R.id.clear);
         btnParentheses = findViewById(R.id.parentheses);
         btnExponent = findViewById(R.id.exponent);
@@ -97,6 +104,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et.setText((String.format("%s%s", et.getText().toString(), btn.getText().toString())));
 
         switch (view.getId()) {
+
+            case R.id.radioButtonMaterialStandard:{
+                MyApp.currentTheme = R.style.myThemeDefault;
+                break;
+            }
+            case R.id.radioButtonMaterialRed: {
+                MyApp.currentTheme = R.style.myThemeRed;
+                break;
+            }
+            case id.radioButtonMaterialGreen:{
+                MyApp.currentTheme = R.style.myThemeGreen;
+                break;
+            }
+            case id.radioButtonMaterialBlue:{
+                MyApp.currentTheme = R.style.myThemeBlue;
+                break;
+            }
+
             case id.one:
             case id.two:
             case id.three:
@@ -110,6 +135,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case id.point:
                 input += btn.getText().toString();
                 break;
+
+
+
 
             case id.add: {
                 two = first;
@@ -156,7 +184,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
 
+
+
         }
+
+        recreate();
     }
 
     void result() {
