@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,19 +34,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnEquals;
     Button btnDelete;
     EditText et;
+    RadioButton btnStandard;
+    RadioButton btnRed;
+    RadioButton btnGreen;
+    RadioButton btnBlue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.myThemeGreen);
+        setTheme(MyApp.currentTheme);
         setContentView(R.layout.activity_main);
 
-        findViewById(id.radioButtonMaterialStandard);
-        findViewById(R.id.radioButtonMaterialRed);
-        findViewById(R.id.radioButtonMaterialBlue);
-        findViewById(R.id.radioButtonMaterialGreen);
-
-
+        btnRed = findViewById(id.radioButtonMaterialRed);
+        btnStandard = findViewById(id.radioButtonMaterialStandard);
+        btnGreen = findViewById(id.radioButtonMaterialGreen);
+        btnBlue = findViewById(id.radioButtonMaterialBlue);
         btnClear = findViewById(R.id.clear);
         btnParentheses = findViewById(R.id.parentheses);
         btnExponent = findViewById(R.id.exponent);
@@ -68,6 +71,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnEquals = findViewById(R.id.equals);
         btnDelete = findViewById(R.id.delete);
         et = findViewById(R.id.textView6);
+
+        btnStandard.setOnClickListener(this);
+        btnRed.setOnClickListener(this);
+        btnBlue.setOnClickListener(this);
+        btnGreen.setOnClickListener(this);
 
         btnClear.setOnClickListener(this);
         btnParentheses.setOnClickListener(this);
@@ -105,11 +113,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()) {
 
-            case R.id.radioButtonMaterialStandard:{
+            case id.standard:{
                 MyApp.currentTheme = R.style.myThemeDefault;
                 break;
             }
-            case R.id.radioButtonMaterialRed: {
+            case id.radioButtonMaterialRed: {
                 MyApp.currentTheme = R.style.myThemeRed;
                 break;
             }
@@ -135,9 +143,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case id.point:
                 input += btn.getText().toString();
                 break;
-
-
-
 
             case id.add: {
                 two = first;
