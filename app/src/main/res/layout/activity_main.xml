@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clickable="true"
     android:focusable="true"
-    tools:context=".MainActivity">
+    tools:context=".CalculatorActivity">
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -162,7 +162,7 @@
                 android:textColor="#FFFFFF"
                 android:textSize="@dimen/strings" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/subtract"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
@@ -342,9 +342,11 @@
         android:text="@string/TextView"
         android:textAlignment="textEnd"
         android:textSize="@dimen/textSize"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998"
         tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
 

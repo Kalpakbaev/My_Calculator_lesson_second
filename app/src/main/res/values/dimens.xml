@@ -2,4 +2,5 @@
 <resources>
     <dimen name="textSize">24sp</dimen>
     <dimen name="strings">36sp</dimen>
+    <dimen name="size">30sp</dimen>
 </resources>

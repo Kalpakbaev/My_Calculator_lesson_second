@@ -30,6 +30,9 @@
     <string name="blue">Blue</string>
     <string name="green">Green</string>
     <string name="standard">standard</string>
+    <string name="go_calculator">Go_Calculator</string>
+    <string name="go_theme">Go_Theme</string>
+
 
 
 </resources>
